@@ -1,0 +1,18 @@
+DAY 1
+
+1. What is a LLM?
+
+Neural networks designed to understand, generate and respond to human like texts.
+These are deep neural networks trained on massive amounts of text data.
+
+2. Large ? Language models? 
+
+Large since these models have billions of parameters.
+
+Language models since these models do a wide range of NLP tasks, question answering, translations,
+sentiment analysis and much more.
+
+3. How are these different from earlier NLP models
+
+LLMs can do wide range of NLP tasks and earlier NLP models were
+designed for specific tasks like language translations etc.

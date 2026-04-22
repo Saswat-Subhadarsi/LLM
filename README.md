@@ -38,3 +38,7 @@ Building Currently
 ## Demo / sample outputs
 
 None
+
+## PS :
+
+If you want to see notes you can, they are from basics till what I will be learning.

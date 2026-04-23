@@ -46,3 +46,42 @@ Raw text means here regular text without any labelling information
 
     b. Classification Tasks-
         Labelled datet consist of text and associated labels
+
+
+5. Transformers - 
+
+Transformers are the backbone of most state-of-the-art LLMs because
+they support parallel processing, advanced context awareness, and highly 
+scalable training, all thanks to self-attention mechanisms.
+
+PS : attention is all you need is a beautiful paper.
+
+Steps -
+1. Input text sent
+2. Preprocessing Steps
+    a. Tokenization - Breaking down words and sentences and assigning ids
+
+3. Encoder 
+    a. Vector embedding is implemented on Preproccessed texts 
+    This is very important to ensure semantics hold even after assigning numerical ids.
+    Each token is a number, but numbers dont hold grammar semantics or meaning so we convert
+    them into vectors embeddings.
+
+4. Embeddings generated in multi dimensional manner.
+
+5. Decoder 
+    a. The vector embeddings are fed to decoder
+       During use Decoder only gets Encoder output and previously generated tokens(what is has
+       said so far)
+       From these it predicts the next word.
+
+Note : One word predicted at a time.
+
+Attention mechanism - Allows us to model the dependencies between words without regards to how close
+apart or how far apart the words are.
+
+Self attention- Is an attention mechanism relating different positions of a single sequence in order to
+compute a representation of the sequence.
+It means it alows model to weigh importance od different words/tokens relative to each other.
+It helps us capture long range dependenciesso that the model can look both far behind and closer to identify
+the next word.

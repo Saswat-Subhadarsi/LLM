@@ -85,3 +85,29 @@ compute a representation of the sequence.
 It means it alows model to weigh importance od different words/tokens relative to each other.
 It helps us capture long range dependenciesso that the model can look both far behind and closer to identify
 the next word.
+
+BERT - Bidirectional Encoder Representations from Transformers
+
+Predicts hidden words in a given sentence.
+It masks a word randomly and try to predict those words.
+It recieves inputs where words are randomly masked during training.
+
+GPT - Generative Pretrained Transformers
+It tried to generate one word at a time. 
+Tries to predict the right most word(last word).
+
+BERT has to pay attention to all parts of sentence since random words 
+missing thus it performs well on sentiment analysis task.
+
+BERT is Bidirectional because it has to look from both direction where as GPT has to look
+for one side only.
+
+BERT is encoder only model.
+GPT is decoder only model.
+
+Not all Transformersare LLMs
+Transformers can be used for several tasks.
+LLMs are one of many applications of transformers.
+
+Not LLMs are transformers as well.
+LLMs can bee RNN or CNN architecture as well.

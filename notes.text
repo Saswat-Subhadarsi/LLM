@@ -16,3 +16,33 @@ sentiment analysis and much more.
 
 LLMs can do wide range of NLP tasks and earlier NLP models were
 designed for specific tasks like language translations etc.
+
+
+DAY 2 
+
+1. Why finetune after pre train?
+
+To make our model task specific
+
+Pretraining is a unsuvpervised learning and its auto regression because after a word
+is predicted it is taken into the training loop i guess and the next word is predicted
+and it goes on.
+
+Finetuning is mostly done on labelled data.
+
+
+Steps for building a LLM : 
+
+1. Train on a large corpus of raw text data.
+Raw text means here regular text without any labelling information
+
+2. First training stage of LLM is also called Pretraining to create a foundational model
+
+3. After obtaining the pretrained LLM, we can further train LLM on labelled data.
+
+4. There are two types of popular finetuning 
+    a. Instruction finetuning- 
+        Labelled dataset consists of Instruction answer pairs.
+
+    b. Classification Tasks-
+        Labelled datet consist of text and associated labels

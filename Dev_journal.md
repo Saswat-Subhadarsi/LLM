@@ -9,3 +9,5 @@ Basics and what to do.
 ## DAY 2
 
 Had a very hectic day still made some time for learning. Learned basics and pretraining and finetuning, moved to simplified transformer architecture.
+Went a bit into attention mechanisms. Read about BERT and GPT just the overview nothing much. 
+Moving pretty slowly I think. Better than nothing. Lets see where it goes.

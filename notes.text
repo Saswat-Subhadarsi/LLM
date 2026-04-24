@@ -111,3 +111,41 @@ LLMs are one of many applications of transformers.
 
 Not LLMs are transformers as well.
 LLMs can bee RNN or CNN architecture as well.
+
+
+DAY 3
+Auto regressive models - Models that uses previous outputs as input for fututre predictions
+
+Compared to original transformer architecture GPT architecture is much simpler
+In GPT architecture: there is no encoder we just have the decoder.
+
+Original Transformer: 6 encoder decoder blocks
+GPT 3: 96 transformer layers 175 billion parameter.
+
+Emergent Behaviour: GPT was trained only for next word prediction, but it can perform many language tasks
+this is called as Emergent Behaviour.
+
+Zero shot learner and Few shot learner: Zero-shot learning uses models to handle new tasks without any explicit 
+training examples, while few-shot learning provides a few examples to guide the model on a specific task. 
+
+
+Stages Of Building A LLM From Scratch: 
+
+Stage 1: 
+    a. Data preparation and Sampling
+    b. Attention mechanism
+    c. LLM architecture
+Implement data sampling and understand basic mechanism. 
+
+Stage 2: Pretraining
+    a. Training loop
+    b. Model evaluation
+    c. Load pretrained weights
+Goal is to build a foundational model. Pretrain the llm on unlabeled data.
+
+Stage 3:
+    a. Finetuning for Classification
+    b. Finetuning for Personal Assitant
+Finetuning the model for different tasks.
+
+

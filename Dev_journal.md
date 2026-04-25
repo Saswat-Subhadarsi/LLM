@@ -11,3 +11,15 @@ Basics and what to do.
 Had a very hectic day still made some time for learning. Learned basics and pretraining and finetuning, moved to simplified transformer architecture.
 Went a bit into attention mechanisms. Read about BERT and GPT just the overview nothing much. 
 Moving pretty slowly I think. Better than nothing. Lets see where it goes.
+
+## DAY 3
+
+Stage of making a llm
+Auto regression
+emergent behaviour
+
+## DAY 4
+
+Stage 1 starts
+Building a tokenizer
+Learning basic tokenizer about special tokens and token ids.

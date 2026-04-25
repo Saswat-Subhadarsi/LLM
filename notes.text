@@ -149,3 +149,84 @@ Stage 3:
 Finetuning the model for different tasks.
 
 
+DAY 4
+
+Building a tokenizer
+
+Step 1: 
+We convert texts to tokenized text
+    text                    Tokenized text
+"This is an exmaple" => "This" "is" "an" "example"
+
+Step 2: 
+Convert them into token ids
+                        This    is  an     example
+Assigned token ids   =>  4013   201 302    1134
+
+Step 3: 
+Convert token ids to token embeddings which are fed to GPT
+
+Traditional word wise tokenization :
+
+Now, for complete training of dataset we convert to tokenized text
+From that we develop vocabulary : arranging in alphabetical order and assigning ids
+Each unique token is mapped to an unique integer called tokenID.
+
+This is called encoding of each word
+
+Later these numbers reversed back to strings via method called decode  
+
+But this creates problem so we use BYTE PAIR ENCODING(BPE : ])
+
+Additionally we add two more token ids 
+<|unk|> : unknown
+<|endoftext|> : end of text and another text has started. added between texts.
+to make things easier for us. 
+
+The above was word based encoding.
+
+
+GPT only needs endoftext and nothing else. GPT uses BPE to break words into
+subword units.
+
+BYTE PAIR ENCODING (BPE):
+
+Used in all modern LLMs.
+Its a subwrd based tokenization algo.
+
+Rules :
+1. Do not split frequently used words into smaller subwords
+2. Split the rare words into smaller, meaningful, subwords.
+
+Advantages of subword tokenization:
+1. The subword splitting helps the model learn that different
+words with same root word as token like tokens and tokenizing have
+similar meaning.
+
+2. It also helps the model learn that tokenization and modernization are
+made up of different root words.
+
+
+BPE algo : Most common pair of consecutive bytes of data is replaced with 
+a byte that does not occur in data.
+
+We find pair of consecutive bytes that occure most in data and replac them 
+with bytes that does not occur in data.
+
+Example : og data : aaabdaaabac
+a. The byte pair 'aa' occurs the most like twice in aaab and twice in aaabac 
+in three initial a's. Now we will replace it wirh Z as Z does not occur in the data.
+
+b. Compressed data : ZabdZabac
+
+c. The next pair occuring mostly is ab. We will replace it with you
+New data : ZYdZYac
+
+d. Nothing to compress more can be compressed over ZY to WdWac.
+
+How BPE helps in LLMs ?
+a. BPE ensures that most common words in the vocabulary are represented
+as a single token, while rare words are broken down into two or more subword 
+tokens.
+
+This continues till token count reached.

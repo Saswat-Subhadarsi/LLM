@@ -18,6 +18,13 @@ LLMs can do wide range of NLP tasks and earlier NLP models were
 designed for specific tasks like language translations etc.
 
 
+
+
+
+
+
+
+
 DAY 2 
 
 1. Why finetune after pre train?
@@ -113,6 +120,10 @@ Not LLMs are transformers as well.
 LLMs can bee RNN or CNN architecture as well.
 
 
+
+
+
+
 DAY 3
 Auto regressive models - Models that uses previous outputs as input for fututre predictions
 
@@ -147,6 +158,10 @@ Stage 3:
     a. Finetuning for Classification
     b. Finetuning for Personal Assitant
 Finetuning the model for different tasks.
+
+
+
+
 
 
 DAY 4
@@ -230,3 +245,10 @@ as a single token, while rare words are broken down into two or more subword
 tokens.
 
 This continues till token count reached.
+
+
+
+
+Day 5:
+
+Now we build.

@@ -2,10 +2,9 @@
 
 I am building a small open source llm. I have named it Atropus. Atropus's main task is being a story generation brain. It will be trained on books corpus and many more narratives to make it able to generate narratives easily.
 
-
 ## Why am I building it ?
 
-### Mimicking Human Brain
+**Mimicking Human Brain**
 
 Human thinking is not a clean, linear pipeline. It is messy, iterative, and pattern-driven.
 
@@ -27,18 +26,13 @@ Given a situation, it produces multiple plausible “thought paths”
 Each path represents a different interpretation or action trajectory
 These generated thoughts can then be evaluated by a separate decision-making model
 
-## Tech stack
-
-Building Currently
-
 ## Current progress
+0% : [--------------------]
 
-0% `:] I will get there eventually`
+**Day 5**
+5% : [|-------------------] `:] I will get there eventually`
 
-## Demo / sample outputs
+## References 
 
-None
-
-## PS :
-
-If you want to see notes you can, they are from basics till what I will be learning.
+**BPE**  : Neural Machine Translation of Rare Words with Subword Units
+               ~ by Rico Sennrich and Barry Haddow and Alexandra Birch

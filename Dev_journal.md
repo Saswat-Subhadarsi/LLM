@@ -23,3 +23,9 @@ emergent behaviour
 Stage 1 starts
 Building a tokenizer
 Learning basic tokenizer about special tokens and token ids.
+
+## DAY 5
+
+Dove deep into Byte Pair Encoding
+Read the paper ```Neural Machine Translation of Rare Words with Subword Units``` paper for 
+reference of Byte Pair Encoding

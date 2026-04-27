@@ -27,7 +27,7 @@ Each path represents a different interpretation or action trajectory
 These generated thoughts can then be evaluated by a separate decision-making model
 
 ## Current progress
-0% : [--------------------]
+0% : [--------------------] `:] I will get there eventually`
 
 **Day 5**
 5% : [|-------------------] `:] I will get there eventually`

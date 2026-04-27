@@ -29,3 +29,10 @@ Learning basic tokenizer about special tokens and token ids.
 Dove deep into Byte Pair Encoding
 Read the paper ```Neural Machine Translation of Rare Words with Subword Units``` paper for 
 reference of Byte Pair Encoding
+
+## DAY 6 
+
+Finally made all the functions and made base training loop. 
+Found so many edge cases to look out for.
+Thought of some features to add and make the model more robust.
+Todo : Need to make it more practical and fast.

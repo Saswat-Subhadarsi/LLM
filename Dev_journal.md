@@ -36,3 +36,10 @@ Finally made all the functions and made base training loop.
 Found so many edge cases to look out for.
 Thought of some features to add and make the model more robust.
 Todo : Need to make it more practical and fast.
+
+## DAY 7
+
+Found a huge bug in my training loop's merge function
+Now I am training my BPE on 231k vocab freq
+Pretty excited
+The BPE is quite in efficient so I need to make optimizations

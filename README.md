@@ -26,12 +26,6 @@ Given a situation, it produces multiple plausible “thought paths”
 Each path represents a different interpretation or action trajectory
 These generated thoughts can then be evaluated by a separate decision-making model
 
-## Current progress
-0% : [--------------------] `:] I will get there eventually`
-
-**Day 5**
-5% : [|-------------------] `:] I will get there eventually`
-
 ## References 
 
 **BPE**  : Neural Machine Translation of Rare Words with Subword Units

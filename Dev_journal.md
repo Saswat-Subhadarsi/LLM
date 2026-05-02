@@ -53,3 +53,12 @@ Basically performed and recorded some practicals today
 
 Performed major optimizations on my Training loops
 Mainted a global access data in the Train class so that recreation of it does not occur every iteration
+
+## Day 10
+ 
+Did nothing
+
+## Day 11 
+
+Made Optimizations and implemented heaps
+Achieved timing of 53.64 seconds on Trainer version 1

@@ -43,3 +43,13 @@ Found a huge bug in my training loop's merge function
 Now I am training my BPE on 231k vocab freq
 Pretty excited
 The BPE is quite in efficient so I need to make optimizations
+
+## DAY 8
+
+My BPE trainer is taking forever to train 30k merges so I need to optimize it I guess
+Basically performed and recorded some practicals today
+
+## DAY 9
+
+Performed major optimizations on my Training loops
+Mainted a global access data in the Train class so that recreation of it does not occur every iteration

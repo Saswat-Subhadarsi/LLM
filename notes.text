@@ -252,3 +252,19 @@ This continues till token count reached.
 Day 5:
 
 Now we build.
+
+Day 18 :
+
+Data Preprocessing :
+
+Context szie = k
+its the maximum length in number of tokens that the llm sees 
+at once. It means k tokens can be seen by the llm at once.
+
+Creating a data loader
+This dataloader will fetch input-output target pairs using a sliding
+window approach.
+
+we will grate a input tensor and output tensor, the first row of 
+input tensor will be inputs and the first row of output tensor will be the 
+output of each element in first row of input tensor

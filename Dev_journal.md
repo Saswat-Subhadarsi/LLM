@@ -62,3 +62,9 @@ Did nothing
 
 Made Optimizations and implemented heaps
 Achieved timing of 53.64 seconds on Trainer version 1
+
+## Day 12 - 17 
+
+No progress - Semester
+
+## Day 18
